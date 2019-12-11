@@ -2,25 +2,33 @@ html {
     font-family: 'Roboto Mono', monospace;
 
 }
-
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
 .container {
-    width: 800px;
-    height: 600px;
+    background-image:url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
-    position: relative;
-    background-image: url('img/background.jpg');
 }
 
 .block_container {
     position: absolute;
-    top: 15%;
-    left: 12.5%;
+    top: 30%;
+    left: 36%;
     width: 612px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     box-shadow: 0 0 20px 8px black;
+    
 }
 
 .weather_block {
