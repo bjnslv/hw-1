@@ -9,7 +9,7 @@ body {
     overflow: hidden;   
 }
 .container {
-    background-image:url('/img/background.jpg');
+    background-image:url('https://raw.githubusercontent.com/bjnslv/hw-1/master/cubes/img/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
